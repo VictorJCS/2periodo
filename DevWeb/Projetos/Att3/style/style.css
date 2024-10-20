@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #010020, #001038);
+    flex: auto;
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#banner h1{
+    margin: 10;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+.menu{
+    color: aliceblue;
+    padding: 15px;
+    margin-right: 20px;
+    width: 20%;
+
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.menu ul li {
+    margin: 5px 0;
+}
+.menu a{
+    color: rgb(0, 255, 255) ;
+}
+.menu a:hover{
+    color: rgb(255, 0, 191);
+}
+.menu a:visited{
+    color: rgb(0, 255, 0);
+}
+.menu a:active{
+    color: rgb(255, 255, 0);
+}
+
+.conteudo{
+    color: rgb(103, 193, 166);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+     
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left
+    ;
+}
+.rodimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodimg p{
+    
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.rodape{
+    color:rgb(255, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}

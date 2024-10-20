@@ -1,0 +1,34 @@
+<!--AULA 01-->
+<!-- 
+    html é case insensitive (Podendo ser maiúsculo ou minúsculos)
+    CTRL SHIFT i = para identar o codigo
+    CTRL u = para ver o codigo fonte
+-->
+<!DOCTYPE html> <!-- Avisa para o navegador que o arquivo vai ser 'html5'. Evita erro de verificação. -->
+
+<html> <!-- É a tag raiz(Root), Obrigatório no inicio de todo o codigo -->
+    <!-- TAG FILHAS DA TAG HTML -->
+
+    <!-- Estrutura Base -->
+    <head>
+        <!-- Pode usar codigos especificos dentro dele -->
+         <title> NOME DO SITE </title> <!-- Obrigatorio para todos os codigos -->
+         <meta charset=""> <!-- Especificar a codificação do caracter, toda tag meta não tem corpo -->
+    </head>
+    <!-- Atualização automatica so ira acontecer se tiver a TAG body, se não pode dar erro -->
+    <body>
+        <p> Paragrafo </p>
+    </body>
+    <!-- Fim da estrutura Base -->
+    <TAG atributo="valor"> <!-- TAG de Abertura -->
+        <CORPO_TAG atributo="valor"><!--Temos uma Tag camado de <Tag> com um corpo dentro chamado <CORPO_TAG> -->
+            <TAG_SEM_CORPO atributos="valor1 valor2"> <!-- É uma tag sem corpo, todo codigo fica contido dentro dela.'/' é opicional -->
+                <!-- Os atributos pode ou não ter valores atribuidos a ele e se não tiver é atribuido um valor booleano -->
+                <!-- Podemos criar atributos para poder usar junto com o CSS -->
+        </CORPO_TAG><!-- A '/' representa o fechamento da TAG -->
+    </TAG><!-- TAG de Fechamento -->
+</html>
+
+<!-- Temos ordem de hierarquia dentro das TAGs e temos que fechar todas as TAG filhas antes da TAG mãe(Raiz) -->
+
+<!-- Validador de HTML: https://validator.w3.org/ -->
